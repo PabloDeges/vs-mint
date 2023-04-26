@@ -1,0 +1,23 @@
+{
+  "name": "vs-mint",
+  "displayName": "vsmint",
+  "description": "dark mint theme for vs code",
+  "publisher": "pablodeges",
+  "version": "0.3.0",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vs mint",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vs-mint-color-theme.json"
+      }
+    ]
+  }
+}
